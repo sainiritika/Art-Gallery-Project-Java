@@ -1,6 +1,7 @@
-const ART_API = "http://localhost:8080/api/artworks";
-const REVIEW_API = "http://localhost:8080/api/reviews";
-
+//const ART_API = "http://localhost:8080/api/artworks";
+c//onst REVIEW_API = "http://localhost:8080/api/reviews";
+const ART_API = "https://art-gallery-project-java.onrender.com/api/artworks";
+const REVIEW_API = "https://art-gallery-project-java.onrender.com/api/reviews";
 async function fetchArtworks() {
 
     const response = await fetch(ART_API);
