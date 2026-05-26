@@ -12,7 +12,7 @@ async function fetchArtworks() {
     data.forEach(art => {
         gallery.innerHTML += `
             <div class="card">
-                <img src="${art.image_url}" />
+                <img src="${art.imageUrl}" />
                 <h2>${art.title}</h2>
                 <h3>${art.artist}</h3>
                 <p>${art.description}</p>
@@ -26,7 +26,7 @@ async function addArtwork() {
     const artwork = {
         title: document.getElementById("title").value,
         artist: document.getElementById("artist").value,
-        image_url: document.getElementById("image_url").value,
+        imageUrl: document.getElementById("imageUrl").value,
         description: document.getElementById("description").value
     };
      console.log("ARTWORK DATA:", artwork);
