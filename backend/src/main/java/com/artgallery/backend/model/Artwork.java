@@ -11,7 +11,7 @@ public class Artwork {
 
     private String title;
     private String artist;
-    private String imageUrl;
+    private String image_url;
     private String description;
 
     public Artwork() {}
@@ -37,11 +37,11 @@ public class Artwork {
     }
 
     public String getImageUrl() {
-        return imageUrl;
+        return image_url;
     }
 
     public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
+        this.image_url = imageUrl;
     }
 
     public String getDescription() {
