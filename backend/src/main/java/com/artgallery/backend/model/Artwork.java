@@ -1,3 +1,6 @@
+package com.artgallery.backend.model;
+import jakarta.persistence.*;
+
 @Entity
 public class Artwork {
 
