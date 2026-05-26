@@ -29,7 +29,7 @@ async function addArtwork() {
         imageUrl: document.getElementById("imageUrl").value,
         description: document.getElementById("description").value
     };
-
+     console.log("ARTWORK DATA:", artwork);
     await fetch(ART_API, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
