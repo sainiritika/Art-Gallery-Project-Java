@@ -40,8 +40,8 @@ public class Artwork {
         return image_url;
     }
 
-    public void setImageUrl(String imageUrl) {
-        this.image_url = imageUrl;
+    public void setImageUrl(String image_url) {
+        this.image_url = image_url;
     }
 
     public String getDescription() {
